@@ -56,6 +56,20 @@
 ////    ++  2ta pilus o'sha songa yana 1 ni qo'shadi
 //      -  1ta pilus sonni bit biriga ayiradi
 ////    --  2ta pilus o'sha songa yana 1 ni ayiradi
+// let a = 3
+// b = 2
+// console.log(a >=! b);
+// console.log(a <=! b);
+// console.log(a !== b);
+// <, >, ==, ------taqqoslash belgilari 
+// ! ------ bu undoov belgisi inkor manosida keladi
+//                            console.log(!true);
+// let admin = false
+// let ceo = true
+//                       console.log(admin || ceo);
+let login = true;
+let pw = true;
+                  console.log(login && pw);
 
 
 
