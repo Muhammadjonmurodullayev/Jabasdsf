@@ -35,12 +35,20 @@
 // console.log(2 * 2 * 2); //   javobi: 8
 // console.log(2 * 2 * 2 * 2);//javobi: 16
 // console.log(2**20); // javobi 1048576 bu 2ta {**} kvadirat maosini  bildiradi va kvadiratga ko'tarib beradi
-let a=3
-let b=2
-a=b
-console.log(a);
- 
-
+// let a = 3
+// let b = 2
+// // a = b
+// console.log(a == b);
+// (" = ")-a qiymatini b qiymatiga tenglab beradi yani b- ning qiymatini a ga beradi 
+// (' == ')- 2ta tenglik qiymatni bir biriga taqqoslash uchun ishlatiladi
+// (' ==== ') - 3 talik qo'shtirnoq ularning typni ham tekshiiradi
+// let a = 1
+// let b = 2
+// let c = 3
+// c = a + c
+// c += a
+// c -= a
+// consol\e.log(c);
 
 
 
