@@ -67,9 +67,38 @@
 // let admin = false
 // let ceo = true
 //                       console.log(admin || ceo);
-let login = true;
-let pw = true;
-                  console.log(login && pw);
+// let login = true;
+// let pw = true;
+//                   console.log(login && pw);
+
+
+
+//                                      `Homework
+// let
+//     a = 1
+// b = 1
+// c = ++a
+// d = b++
+// console.log(a, b);//javobi:2 2
+// let a = 2
+// let x = 1 + (a *= 2)
+// console.log(x);// javobi:5
+// let a = "3"
+// b = 2 + 1
+// console.log(b+Number(a));
+// let a = "3"
+// b = 1 + 0
+// console.log(a-Number(b));
+// let 
+// a=true
+// b=false
+// console.log(true+false); //  Javobi:1
+
+
+
+
+
+
 
 
 
