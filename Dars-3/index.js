@@ -35,8 +35,10 @@
 // console.log(2 * 2 * 2); //   javobi: 8
 // console.log(2 * 2 * 2 * 2);//javobi: 16
 // console.log(2**20); // javobi 1048576 bu 2ta {**} kvadirat maosini  bildiradi va kvadiratga ko'tarib beradi
-
-
+let a=3
+let b=2
+a=b
+console.log(a);
  
 
 
