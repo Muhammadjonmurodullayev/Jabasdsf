@@ -73,7 +73,7 @@
 
 
 
-//                                      `Homework
+//                                      Homework
 // let
 //     a = 1
 // b = 1
@@ -93,8 +93,45 @@
 // a=true
 // b=false
 // console.log(true+false); //  Javobi:1
-
-
+// let 
+// a=6
+// b="3"
+// console.log(a/Number(b)); javobi: 2
+// let 
+// a="6"
+// b="3"
+// console.log(a*b); javobi:18
+// let 
+// a=6+5+"px"
+// console.log(a);Javobi:11px
+// let 
+// a="&"+6+5
+// console.log(a);Javobi:&65
+// let 
+// a="4"-2
+// console.log(a);javobi:2
+// let 
+// a="4px"-2
+// console.log(a);javobi:Nan
+// let 
+// a="-9"-5
+// console.log(a);javobi:-14
+// let 
+// a="-9"-5
+// console.log(a);javobi:-95
+// let 
+// a=null+1
+// console.log(a);Javobi:1
+// let 
+// a=undefined+1
+// console.log(a);Javobi:NaN
+// let
+//     a = "\t n\"+1
+// console.log(a); 
+// let 
+// a=5
+// b=4
+// console.log(a>b);Javobi:true
 
 
 
