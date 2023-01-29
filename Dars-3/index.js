@@ -49,6 +49,18 @@
 // c += a
 // c -= a
 // consol\e.log(c);
+// let a = 1
+// a -= ++a
+// console.log(a);
+/////    +  1ta pilus sonni bit biriga qo'shadi
+////    ++  2ta pilus o'sha songa yana 1 ni qo'shadi
+//      -  1ta pilus sonni bit biriga ayiradi
+////    --  2ta pilus o'sha songa yana 1 ni ayiradi
+
+
+
+
+
 
 
 
