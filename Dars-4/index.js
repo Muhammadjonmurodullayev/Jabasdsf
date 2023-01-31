@@ -32,15 +32,15 @@
 // let lamp = 5;
 // lamp > 0 && lamp < 10 ? console.log("Chiroq on") :
 // lamp < 10 && lamp > 20 ? console.log("Chiroq off");
-let login = 'webbrain';
-let pw = 12345;
-// null yoki undefined kelmasa boldi '?' turner opireytet ishliydi
-if (login && pw){
-    console.log("Welcom to Fezbook");
-}else{
-    console.log("login yoki parol xato");
+// let login = 'webbrain';
+// let pw = 12345;
+// // null yoki undefined kelmasa boldi '?' turner opireytet ishlaydi
+// if (login && pw){
+//     console.log("Welcom to Fezbook");
+// }else{
+//     console.log("login yoki parol xato");
 
-}
+
 
 
 
