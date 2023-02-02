@@ -46,22 +46,56 @@
 //         } else 
 //                 {
 //                         console.log(i, "toq son");
-                
-        // console.log((i % 2) /2);
-        // console.log((i % 2) +2);
-        //  console.log((i /2) %2);
-        // console.log(i % 22 === 0);
-                        // Homework
-  switch(browser){
-        case 'Edge' :
-   alert("You ve got the edge!");
-   break;
-   alert('Okay we support these browsers too!');
-    break;
-    alert('Okay we support these browsers too!');
-    default:
-        alert('We hope that this page looks ok!');
 
-  }                      
+// console.log((i % 2) /2);
+// console.log((i % 2) +2);
+//  console.log((i /2) %2);
+// console.log(i % 22 === 0);
+//                                         Homework
+// switch(browser){
+//       case 'Edge' :
+//  alert("You ve got the edge!");
+//  break;}
+//    alert('Okay we support these browsers too!');
+//     break;
+//     alert('Okay we support these browsers too!');
+//     default:
+//         alert('We hope that this page looks ok!');
 
-
+//   }                    
+//   case 'Chrome' :
+//         case 'Firefox' :
+//                 case 'Safari' :
+//                         case 'opera' :
+// 2)
+// let a = +prompt('a?', 'b')
+// let b = 1
+// if(aa==0){
+//         alert(0);
+//         }
+// if(aa==1){
+//  alert(1);
+// }
+//       if(a==2||a==3a)  {
+//         alert('2.3');
+//       }
+// let i=3;
+// while(i){
+//   console.log(i--);
+// } javobi:3,2,1
+// let i=0;
+// while((++i<5))console.log(i);javobi:1,2,3,4
+// let i=0;
+// while(i++<5)console.log(i);javobi:1,2,3,4,5
+// for (let i=0; i<3; i++){
+//   console.log(`number ${i}!`);
+// }javobi:number 0! number 1! number 2!
+        // juft ///toq
+// var i = 1
+// for (i; i <= 100; ++i) {
+//   if(i % 2 === 0){
+//     console.log(i,"Juft son");
+//   }else{
+//     console.log(i,"Toq son");
+//   }
+// }
