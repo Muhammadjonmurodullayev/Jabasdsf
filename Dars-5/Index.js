@@ -23,7 +23,7 @@
 //         console.log("Chiroq o'chiq");
 // break;
 //     }
-        //   123
+//   123
 // let str = "Bir yuz yigirma uch"
 // let  = "Asaa"
 //   let    chiroq = "Chiroq on"
@@ -35,4 +35,7 @@
 // let str = "Bir yuz yigirma uch";
 // console.log(str[0,]);
 //       for loops 
-
+let i = 1
+for (i; i < 10; i=i+2) {
+        console.log(i);
+}
