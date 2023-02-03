@@ -99,3 +99,12 @@
 //     console.log(i,"Toq son");
 //   }
 // }
+// let t =1
+// for(t,t)
+
+
+
+
+
+
+
