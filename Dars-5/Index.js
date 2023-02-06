@@ -7,6 +7,7 @@
 // function get(){
 //     console.log('1');
 // }
+// get()
 // console.log(2);
 // get()
 // let name ="webbrain"
@@ -24,9 +25,8 @@
 //     let res = (grade * 100) / 208;
 //     console.log(res);
 // }
-// get()
 // get(50);
-// get(104);
+// get(104.1);
 // function getname(name,surname,){
 //     console.log(name,surname);
 // }
@@ -35,11 +35,11 @@
 //     let res = (grade * 100) / 208;
 //     return res;
 // }
-// console.log(get(105) > 50 ? "Passed" : "failed");
+// console.log(get(106) > 50 ? "Passed" : "failed");
 // function get(){} buni xoxlagan joyda chaqira olamiz
 // const get = function(){} -buni faqat o'zidan keyin chaqirish kerak
 // const arrFun=()=>{}
-// Homework
+//                                           Homework
 // for(let i=0;i<3;i++){
 //     console.log(`number ${i}!`);
 
