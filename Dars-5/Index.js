@@ -67,4 +67,50 @@
 // console.log(3**3);=27
 // console.log(1*100);=100
 
+// return - returnga qanaqa qiymat biriktirilsa funksiyaninig qiymat o'sha bo'lib qoladi 
+// function getname(){}-------------Function declerishin
+// const getname = function(){}-----funnction expreshin 
+// const arrFun =()=>{}-------------arrFun deyiladi
+
+
+
+// let ball =200;
+// function get(foiz){
+//  let res =(foiz *100)/200;
+//     console.log(res);
+// }
+// get()
+// get(60)
+// get(70)
+
+// function getname(name){
+//     return name;
+// }
+// console.log(getname("Muhammadjon"));
+
+// let ball = 200;
+// function get(foiz) {
+//     let res = (foiz * 100) / 200;
+//     return res;
+// }
+// console.log(get(200) > 50 ? "Passed" : "failde");
+// function getname(){}fun dec
+// const getGrade =function(){} fuc exp
+// const arrFun =()=>{} arrfun
+function get(){
+
+}
+get(()=>{})
+
+
+
+
+
+
+
+
+
+
+
+
 
