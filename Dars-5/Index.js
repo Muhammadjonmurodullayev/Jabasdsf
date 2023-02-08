@@ -70,7 +70,7 @@
 // return - returnga qanaqa qiymat biriktirilsa funksiyaninig qiymat o'sha bo'lib qoladi
 // function getname(){}-------------Function declerishin
 // const getname = function(){}-----funnction expreshin
-// const arrFun =()=>{}-------------arrFun deyiladi
+// arrFun =()=>{}-------------arrFun deyiladi
 
 
 
@@ -153,16 +153,32 @@
 // name(1,1)
 
 
-function pow(a, b) {
-    let sum = 1;
-    for (let i = 2; i < b; i++) {
-        if ()
-    }
+// function pow(a, b) {
+//     let sum = 1;
+//     for (let i = 0; i < b; i++) {
+//         sum=sum*a
+//         }console.log(sum);
+// }
+// pow(2,5)
+// pow(3,3
+// pow(1,100)
+// // console.log(2**2);
+() => {}
+
+ ask = (question, yes, no) => {
+    if (confirm(question)) yes();
+    else no()
 }
 
+ask(
+    "Do you agree?",
+    ()=> { alert("You agreed"); },
+     ()=> { alert("You canceld the execution"); }
+)
 
-
-
+// confirm()
+// alert("pafaf")
+// prompt("f,gpxd,h")
 
 
 
