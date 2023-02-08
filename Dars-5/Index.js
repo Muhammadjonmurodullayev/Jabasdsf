@@ -67,9 +67,9 @@
 // console.log(3**3);=27
 // console.log(1*100);=100
 
-// return - returnga qanaqa qiymat biriktirilsa funksiyaninig qiymat o'sha bo'lib qoladi 
+// return - returnga qanaqa qiymat biriktirilsa funksiyaninig qiymat o'sha bo'lib qoladi
 // function getname(){}-------------Function declerishin
-// const getname = function(){}-----funnction expreshin 
+// const getname = function(){}-----funnction expreshin
 // const arrFun =()=>{}-------------arrFun deyiladi
 
 
@@ -97,16 +97,68 @@
 // function getname(){}fun dec
 // const getGrade =function(){} fuc exp
 // const arrFun =()=>{} arrfun
-function get(){
+//    Homework
+// for (let i =0; i<3; i++){
+//     console.log(`number ${i}!`);
+// }
+// javobi:
+// number 0!
+// number 1!
+// number 2!
 
+// function name(yosh){
+//     if (yosh>18 ){
+//         console.log("Ok");
+//     }else{
+//         console.log('Akoun ocholmaysiz');
+//     }
+// }
+// name(19)
+// function name (yosh){
+//     yosh>18 ? console.log("ok"): console.log('Akoun ocholmaysiz');
+
+// }
+// name(19)
+// function name (son,number){
+//     if (son<number){
+//         console.log(son);
+//     }else{
+//         console.log(number);
+//     }
+// }
+// name(2,5)
+// function name (son,number){
+//         if (son<number){
+//             return son;
+//         }else{
+//             return number;
+//         }
+//     }
+//   console.log(name(2,5));
+// function  name(son,number){
+//     if (son<number){
+//         console.log(son);
+//     }else{
+//         console.log(number);
+//     }
+// }
+//     // name(3,-1)
+//     function name(son,number){
+//         if (son<number){
+//             console.log(son);
+//         }else{
+//             console.log(number);
+//         }
+//     }
+// name(1,1)
+
+
+function pow(a, b) {
+    let sum = 1;
+    for (let i = 2; i < b; i++) {
+        if ()
+    }
 }
-get(()=>{})
-
-
-
-
-
-
 
 
 
