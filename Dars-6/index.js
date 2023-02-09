@@ -39,6 +39,44 @@
 // }
 // account.year = 2019
 // console.log(account);
+// let account ={
+//   name:"Muhammadjon",
+//   surname:"Murodullayev",
+//   year:2005,
+//   "full name" :"Muhammadjon Muroullayev"
+// }
+// let key = "year";
+// console.log(account);
+// let obj = new Object();
+// console.log(obj);
+// console.log(account.name);
+// console.log(account[key]);
+// console.log(account["full name"]);
+// console.log(account[0]);
+// Object.freeze(account)
+// Object.seal(account)
+// account.fullname = "Webbrain academy"
+// account.name = "Eshmat"
+// console.log(account);
+// const key = "surname";
+
+// let account ={
+// name:"Muhammadjon",
+// surname:"Murodullayev",
+// year:2005
+ 
+// }
+// for ( let i in account)
+// console.log(i);
+
+
+
+
+
+
+
+
+
 
 
 
