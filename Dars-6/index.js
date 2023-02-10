@@ -64,17 +64,72 @@
 // name:"Muhammadjon",
 // surname:"Murodullayev",
 // year:2005
- 
+
 // }
 // for ( let i in account)
 // console.log(i);
 
+// let user = {
+//     name: "John",
+//     surname: "Smith",
 
+// }
+// user.name = "Pete";
+// delete user.name;
+// console.log();
+// let schdule = {}
+// alert(isEmpty(schudele));
+// schudele["8:30"]="Get up";
+// alert(isEmpty(schdule));
 
+// for (key in schdule) {
+//     console.log();
+//     if (key) {
+//         console.log(false);
+//     }
 
+// }
+// console.log(schdule);
 
+// function check(obj) {
+//     for (key in obj) {
+//         if (typeof key === "undefined");
+//         return console.log(true);
+//     }
+// }
+// console.log(check(schdule));
+// let ish = {
+//     John: 100,
+//     Pet: 160,
+//     Ann: 130,
 
-
+// }
+// let sum = 0;
+// for (value in ish ) {
+//     if (ish[value] > sum){
+//         sum=ish[value]
+//     }
+// }
+// console.log(sum);
+let ish = {
+    John: 200,
+    Pet: 300,
+    title: "My menu"
+// }
+// let sum = 0;
+// for (value in ish) {
+//     let res = ish[value] *2
+//     console.log(res);
+//     // if (ish[value] > sum) {
+//     //     console.log(ish[value] * 2);
+    // }
+}
+for ( value in ish){
+    // console.log(ish[value]);
+    if  (typeof ish[value]=="number"  ){
+        console.log(ish[value]*2);
+    }
+}
 
 
 
