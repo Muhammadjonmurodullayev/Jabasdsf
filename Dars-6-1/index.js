@@ -11,7 +11,7 @@
 // }
 // }
 // ins.getname()
-// let add =Object.entries(ins)//keys va values dan tashkil topgan
+// let add =Object.entries(muhammadjonins)//keys va values dan tashkil topgan
 // // console.log(Object.fromEntries(add));//manashu erreydan objektga o'tish
 // let name = "It center ";
 // let ins = { 
@@ -20,4 +20,5 @@
 //     }
 //     const {name:muham} = ins; // yani bu distirakcha deyiladi. biz "." nuqta bilan emas shunchaki keysni o'zini yozib chaqiramiz
 //   console.log(muham);
+
   
