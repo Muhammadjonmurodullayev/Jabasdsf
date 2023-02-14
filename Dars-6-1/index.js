@@ -20,5 +20,57 @@
 //     }
 //     const {name:muham} = ins; // yani bu distirakcha deyiladi. biz "." nuqta bilan emas shunchaki keysni o'zini yozib chaqiramiz
 //   console.log(muham);
+// surname.name = "Otabek";
+// delete name.name
+// console.log({...name,...surname});
+// login.getname()
+// getname(){
+    // let arr = Object.entries(ar);
+    // console.log(Object.entries(ar));
+    // console.log(Object.fromEntries(arr));
+
+let log  = {
+    name:"Muhammadjon",
+    surname:"Murodullayev",
+    pw : {
+        age: 18,
+        name:"Webbrain"
+    }
+} 
+const {name, surname} = log;   
+console.log(pw.age);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
