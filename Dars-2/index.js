@@ -132,3 +132,21 @@
 // a=5
 // b=4
 // console.log(a>b);Javobi:true
+let a=125.23;
+// // let b = "21321321321"
+// console.log(Number(a));
+// console.log(Number.parseInt(a));
+// console.log(Number.parseFloat(a));
+
+
+
+
+
+
+
+
+
+
+
+
+
