@@ -1,2 +1,3 @@
-let a= 12123;
-console.log(a);
+// let a ="1000000";
+// console.log(Number(a));
+console.log(NaN);
