@@ -19,7 +19,18 @@
 // let a =Math.sqrt(4)
 // let b =Math.cbrt(27)
 // console.log(a,b);
-
+// 0001
+// 0010
+// 0011
+// 0100
+// 0101
+// let a = 101
+// // console.log(a.toString(2));
+// console.log(parseInt(a,2));
+// let a = Math.PI
+// console.log(a.toFixed(10));
+// let a = 12.37+"as"
+// console.log(isNaN(a));
 
 
 
