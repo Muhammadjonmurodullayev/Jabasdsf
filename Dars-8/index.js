@@ -12,7 +12,7 @@
 // // let a =Math.max(100,-2,8,75)
 // console.log(b,a);
 // let b= 2**4
-// let a =Math.pow(2,3)
+// let a =Math.pow(2,2)
 // console.log(a);
 // let a =Math.sign(-15494840)
 // console.log(a);
