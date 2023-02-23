@@ -1,4 +1,4 @@
-let a ="Salom",
-b= 'Salom',
-c=`Salom`
-console.log(a,b,c);
+// let a ="Salom",
+// b= 'Salom',
+// c=`Salom`
+// console.log(a,b,c);
