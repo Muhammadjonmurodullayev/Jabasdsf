@@ -42,7 +42,7 @@
 // let b= "Webbrain"
 // console.log(b.slice(0,3));qayerdan qayergacha qirqib olish
 // console.log(eval(`2+2*9a`));
-// let a= "    Webbrai"
+// let a= "Webbrai"
 // console.log(a.length);
 // console.log(a.trimStart().length);
 // console.log(a.trimEnd().length);
@@ -55,11 +55,46 @@
 // console.log(new String("Webbrain"));
 // let a= "webrain academy"
 // console.log(a.replace("web","WEB"));
-// let a= "webrain academy"
+// let a= "webrain academy"b      
 // for (char of a ){
 //     console.log(char);
 // }
+// homework
+// function name(str)
+// function get(str) {
+//     let num = "";
+//     for (i of str) {
+//         if (isNaN(i) === false) {
+//             num += str
+//         }
+//     }
+//     console.log(+num);
+//     return num
+// }
+// get("$1200")
+// function getname(str){
+//     let num="";
+//     for(val of str ){
+//         if ((isNaN(val))===false){
+//             num+=val;
+//         }
+//     }
+//     console.log(+num);
+//     return num ;
 
+// }
+// getname("1200")
+
+// let uper = "";
+// let lower = "";
+// let get = (str) => {
+//     for (i of str) {
+//         i === i.toUpperCase() ? uper += i : lower += i;
+//     }
+//     console.log(uper);
+//     console.log(lower);
+// }
+// get("Academy")
 
 
 
