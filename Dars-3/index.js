@@ -41,27 +41,55 @@
 //     console.log("login yoki parol xato");
 //if else
 
+// console.log("Havo issiq");
+// console.log("Havo sovuq");
+// 0,null ,undefined
+// let b= -12
+// let a =0
+// if(a>0){
+// console.log("Havo issiq");
+// }
+// else if(a==0){
+//     console.log("Havo iliq");
+// }
+// else if (a<0){
+// console.log("Havo sovuq");
+// }
+// else{
+//     console.log("Bunaqa malumot mavjud emas");
+// }
+// ||
+// let a =1
+// if(a||12){
+//     console.log("Son");
+// }
+// console.log(null || "It academy");///------1 tasi tog'ri bolsa bo'ldi
+// console.log(false && "Webbrain");
+// console.log(undefined ?? "Webbarin");//------bunda null yoki undefant bo'lmasligi kerak 
+// ||,&&,??
+// let login =1212
+// let pw = 1212
+// if (login && pw){
+//     console.log("Siz fezbuk akount ocha olasiz");
+// }else{
+//     console.log("Siz fezbuk akount ocha olmaysiz");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
+// login && pw ? console.log("Siz fezbuk akount ocha olasiz"):console.log("Siz fezbuk akount ocha olmaysiz");
+// homework
+// let a= 1212
+// let b= 212
+// if(a&&b){
+//     console.log("Rigth");
+// }else{
+//     console.log("You don't know?'Ecmasiprit'");
+let a=5
+if(a>0){
+    console.log(1);
+}
+else if (a<0){
+    console.log(-1);
+}else{
+    console.log(0);
+}
 
