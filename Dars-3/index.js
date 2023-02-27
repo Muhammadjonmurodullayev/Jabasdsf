@@ -39,6 +39,7 @@
 //     console.log("Welcom to Fezbook");
 // }else
 //     console.log("login yoki parol xato");
+//if else
 
 
 
