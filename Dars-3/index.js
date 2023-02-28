@@ -78,11 +78,11 @@
 // login && pw ? console.log("Siz fezbuk akount ocha olasiz"):console.log("Siz fezbuk akount ocha olmaysiz");
 // homework
 // let a= 1212
-// let b= 212
+// let b= undefined
 // if(a&&b){
 //     console.log("Rigth");
 // }else{
-//     console.log("You don't know?'Ecmasiprit'");
+//     console.log("You don't know?'Ecmasiprit'");}
 // let a=5
 // if(a>0){
 //     console.log(1);
@@ -112,5 +112,12 @@
 // }else if(login=='Director'){
 //     massages='Greetings'
 // }else if(login=='')
+// let name = 0
 
+// name>5?console.log("katta")
+// :name>0
+// ?console.log("5")
+// :console.log("0");
+// let message;
 
+// login=='Emplayer'?'Hello':message=='Emper'?login=='gren':message==''?login=="no login":message ==''
