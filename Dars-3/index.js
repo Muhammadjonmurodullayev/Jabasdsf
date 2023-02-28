@@ -105,7 +105,7 @@
 // } else {
 //     login = 'Over'
 // }
-let massages;
+// let massages;
 // login === 'Employee' ? messages = 'Hello';
 // if(login=='Employee'){
 //     massages='Hello';
