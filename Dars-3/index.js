@@ -83,13 +83,34 @@
 //     console.log("Rigth");
 // }else{
 //     console.log("You don't know?'Ecmasiprit'");
-let a=5
-if(a>0){
-    console.log(1);
-}
-else if (a<0){
-    console.log(-1);
-}else{
-    console.log(0);
-}
+// let a=5
+// if(a>0){
+//     console.log(1);
+// }
+// else if (a<0){
+//     console.log(-1);
+// }else{
+//     console.log(0);
+// }
+// let login = 1;
+// if (a + b < 4) {
+//     login = 'Below'
+// } else {
+//     login = 'Over'
+// }
+
+// let result = 1;
+// if (a + b < 4) {
+//     result= 'Below'
+// } else {
+//     login = 'Over'
+// }
+let massages;
+// login === 'Employee' ? messages = 'Hello';
+// if(login=='Employee'){
+//     massages='Hello';
+// }else if(login=='Director'){
+//     massages='Greetings'
+// }else if(login=='')
+
 
