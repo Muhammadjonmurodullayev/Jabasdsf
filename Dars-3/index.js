@@ -121,3 +121,40 @@
 // let message;
 
 // login=='Emplayer'?'Hello':message=='Emper'?login=='gren':message==''?login=="no login":message ==''
+// console.log(0||null);
+// let login = 3213213
+// let pw = 0
+// if (login&&pw) {
+//     console.log("Rigth");
+// } else {
+//     console.log("You do'nt know 'EcmaScript' ?");
+// }
+// let javob = "EcmaScript"
+// if (javob == "EcmaScript") console.log("Rigth!");
+// else console.log("You don't know?\n EcmaScript");
+// let a = 12
+// if (a<0){
+//     console.log(-1);
+// }
+// else if (a==0){
+//     console.log(0);
+// }else {
+//     console.log(1);
+// // }
+// let result;
+// let a = 1
+// let b = 1
+// if (a+b<4) {
+//     result='Below'
+// }else{
+//     result='over'
+// }
+
+// let message
+// login == "Employee" ? message = "hello" : login == "Director" ? message = "Greetings" : login == "" ? message = "NO login" : message ="";
+
+
+
+
+
+
