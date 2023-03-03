@@ -102,7 +102,13 @@
 // let t =1
 // for(t,t)
 // console.log();
-
+// let name = "iliq"
+// switch(name){
+//         case "Yomg'ir":
+//         console.log("Bugun yomg'ir"); break
+//         case "Bulut" : console.log("Bugun bulutli"); break
+//         case "iliq" : console.log("Bugun havo iliq");
+// }
 
 
 
