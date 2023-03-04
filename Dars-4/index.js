@@ -127,6 +127,7 @@
 //         console.log(i, "Juft son");
 //     }
 // }
+//                    Homework
 // let browser = "Edge"
 // switch (browser) {
 //     case 'Edge':
@@ -172,5 +173,11 @@
 //     // Nubmer 7!
 //     // Nubmer 8!
 //     // Nubmer 9!
-
+// for(i=1; i<100; i++){
+// if(i%2==1){
+//     console.log(i,"Toq son");
+// }else{
+//     console.log(i, "Juft son");
+// }
+// }
  
