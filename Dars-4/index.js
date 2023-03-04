@@ -90,7 +90,7 @@
 // for (let i=0; i<3; i++){
 //   console.log(`number ${i}!`);
 // }javobi:number 0! number 1! number 2!
-        // juft ///toq
+// juft ///toq
 // var i = 1
 // for (i; i <= 100; ++i) {
 //   if(i % 2 === 0){
@@ -107,8 +107,19 @@
 //         case "Yomg'ir":
 //         console.log("Bugun yomg'ir"); break
 //         case "Bulut" : console.log("Bugun bulutli"); break
-//         case "iliq" : console.log("Bugun havo iliq");
+//         case "iliq" : console.log("Bugun havo iliq");break
 // }
+// let name = 0                                     |
+// switch (name) {                                  |
+//         case 0: console.log("Yakshanba"); break  |
+//         case 1: console.log("Dushanba"); break   |
+//         case 2: console.log("Seshanba"); break   |_______Hafta kunlarini chiqarib beradi 
+//         case 3: console.log("Chorshnba"); break  |
+//         case 4: console.log("Payshanba"); break  |
+//         case 5: console.log("Juma"); break       |
+//         case 6: console.log("Shanba"); break     |
+// }                                                |
+
 
 
 
