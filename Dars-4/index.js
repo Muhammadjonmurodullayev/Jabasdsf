@@ -118,11 +118,59 @@
 //         case 4: console.log("Payshanba"); break  |
 //         case 5: console.log("Juma"); break       |
 //         case 6: console.log("Shanba"); break     |
-// }                                                |
+// }   
+// let i = 1
+// for (i; i < 1000; i++) {
+//     if (i % 2 === 1) {
+//         console.log(i, "Toq son");
+//     } else {
+//         console.log(i, "Juft son");
+//     }
+// }
+// let browser = "Edge"
+// switch (browser) {
+//     case 'Edge':
+//         console.log("You've got the edge!"); break
+//     case 'Chrome':console.log('Chrom'); break
+//     case 'Firifox': console.log("Firifox");
+//     case 'Safari': console.log("Safari");
+//     case 'Opera': console.log("Opera");
 
+//     console.log("Okay we support these browser too "); break
 
+//     default: console.log('We hope that page looks ok ');
 
+// }
+// let a = console.log(Number('1', ''));
+// if(a==0){
+//     console.log(0);
+// }
+// if(a==1){
+//     console.log(1);
+// }
+// if(a==2||a==3){
+//     console.log(Number('2.3'));
+// }
+// let a= 3
+// while(a){
+//  console.log(a--)//---3 dan 5 gacha sonlarni chiqarib beradi 
+// }
+// let i=0
+// while(i++<5)console.log(i); bu 1 dan 5 gacha chiqarib beradi 
+// let i=0
+// while(++i<5)console.log(i);/// bu  1 dan 4 gacha chiqarib beradi 
+// for (i=1; i<10; i++){
+//     console.log(`Nubmer ${i}!`); 
+//     // }
+//     // javobi:
+//     // Nubmer 1!
+//     // Nubmer 2!
+//     // Nubmer 3!
+//     // Nubmer 4!
+//     // Nubmer 5!
+//     // Nubmer 6!
+//     // Nubmer 7!
+//     // Nubmer 8!
+//     // Nubmer 9!
 
-
-
-
+ 
