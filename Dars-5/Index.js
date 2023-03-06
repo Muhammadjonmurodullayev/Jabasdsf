@@ -163,22 +163,22 @@
 // pow(3,3
 // pow(1,100)
 // // console.log(2**2);
-() => {}
+// () => {}
 
- ask = (question, yes, no) => {
-    if (confirm(question)) yes();
-    else no()
-}
+//  ask = (question, yes, no) => {
+//     if (confirm(question)) yes();
+//     else no()
+// }
 
-ask(
-    "Do you agree?",
-    ()=> { alert("You agreed"); },
-     ()=> { alert("You canceld the execution"); }
-)
-
+// ask(
+//     "Do you agree?",
+//     ()=> { alert("You agreed"); },
+//      ()=> { alert("You canceld the execution"); }
+// )
 // confirm()
 // alert("pafaf")
 // prompt("f,gpxd,h")
-
+// console.log(a);
+// const a = 1;
 
 
