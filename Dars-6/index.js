@@ -110,11 +110,11 @@
 //         sum=ish[value]
 //     }
 // }
-// console.log(sum);
-let ish = {
-    John: 200,
-    Pet: 300,
-    title: "My menu"
+// // console.log(sum);
+// let ish = {
+//     John: 200,
+//     Pet: 300,
+//     title: "My menu"
 // }
 // let sum = 0;
 // for (value in ish) {
@@ -123,13 +123,34 @@ let ish = {
 //     // if (ish[value] > sum) {
 //     //     console.log(ish[value] * 2);
     // }
+// }
+// for ( value in ish){
+//     // console.log(ish[value]);
+//     if  (typeof ish[value]=="number"  ){
+//         console.log(ish[value]*2);
+//     }
+// }
+
+let age ='age'
+let obj ={
+name:"webbrain",
+surname:"It center",
+[age]:18,
+'full name' : "Webbrain it academiy"
 }
-for ( value in ish){
-    // console.log(ish[value]);
-    if  (typeof ish[value]=="number"  ){
-        console.log(ish[value]*2);
-    }
-}
+// obj.name = "js"
+delete obj.name
+
+console.log(obj);
+
+
+
+
+
+
+
+
+
 
 
 
