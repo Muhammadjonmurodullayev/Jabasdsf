@@ -122,7 +122,7 @@
 //     console.log(res);
 //     // if (ish[value] > sum) {
 //     //     console.log(ish[value] * 2);
-    // }
+// }
 // }
 // for ( value in ish){
 //     // console.log(ish[value]);
@@ -131,18 +131,26 @@
 //     }
 // }
 
-let age ='age'
-let obj ={
-name:"webbrain",
-surname:"It center",
-[age]:18,
-'full name' : "Webbrain it academiy"
-}
-// obj.name = "js"
-delete obj.name
+// let age ='age'
+// let obj ={
+// name:"webbrain",
+// surname:"It center",
+// [age]:18,
+// 'full name' : "Webbrain it academiy"
+// }
+// // obj.name = "js"
+// delete obj.name
 
-console.log(obj);
-
+// console.log(obj);
+// // =========================================================================
+// let obj = {
+//     name: "Muhammadjon",
+//     surname:"Murodullayev",
+//     age:18,
+//     "full name":"Murodullayev Muhammadjon "
+// }
+// // console.log(obj);
+// console.log('full name' in obj);// ichida full name bor yoki yoqligini tekshiradi 
 
 
 
