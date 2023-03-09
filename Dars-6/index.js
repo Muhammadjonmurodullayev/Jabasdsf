@@ -151,23 +151,43 @@
 // }
 // // console.log(obj);
 // console.log('full name' in obj);// ichida full name bor yoki yoqligini tekshiradi 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// homework
+// let user = {
+//     name: `John`,
+//     surname: `Simith`,
+// }
+// user.name = 'Pate'
+// delete user.name
+// // console.log(user);
+// // console.log((name.John)+(name.Ann)+(name.Pete));
+// let name = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130,
+// }
+// function Muhammadjon(arr) {
+//     res = 0
+//     res = res + arr.Ann
+//     res = res + arr.Pete
+//     res = res + arr.John
+//     return res;
+// // }
+// // console.log(Muhammadjon(name))
+// let name = {
+//     Width: 200,
+//     heigth: 300,
+//     title: "My menu",
+// }
+// console.log(name);
+// if (typeof name.Width === "number") {
+//     name.Width *= 2;
+// }
+// if (typeof name.heigth === "number") {
+//     name.heigth *= 2;
+// }
+// if (typeof name.title === "number") {
+//     name.title *= 2;
+// }
+// console.log(name);
+// let son = -8
+// son==0?console.log(0):son>1?console.log(-1):console.log(1);
