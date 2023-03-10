@@ -246,3 +246,6 @@
 //     }
 // }
 // console.log(menu);
+let obj1 = { 
+    name: "Muhammadjon" 
+}
