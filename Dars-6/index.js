@@ -173,13 +173,36 @@
 //     return res;
 // // }
 // // console.log(Muhammadjon(name))
-// let name = {
-//     Width: 200,
-//     heigth: 300,
-//     title: "My menu",
-// }
 // console.log(name);
-// if (typeof name.Width === "number") {
+// let son = -8
+// son==0?console.log(0):son>1?console.log(-1):console.log(1);
+// let name = {
+//         John: 100,
+//         Ann: 160,
+//         Pete: 130,
+//     }
+
+
+// function Muhammadjon(arr) {
+//     res = 0
+//     res = res + arr.Ann
+//     res = res + arr.Pete
+//     res = res + arr.John
+//     return res;
+// }
+// console.log(Muhammadjon(name))
+
+
+// for (let i in name ){
+//     console.log(i);
+// }
+// let name = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130,
+// }
+// console.log(name[100] in name);
+// if (typeof name.Width === 'number') {
 //     name.Width *= 2;
 // }
 // if (typeof name.heigth === "number") {
@@ -189,5 +212,37 @@
 //     name.title *= 2;
 // }
 // console.log(name);
-// let son = -8
-// son==0?console.log(0):son>1?console.log(-1):console.log(1);
+// let arr = Object.values(name)
+
+// function Muhammadjon(arr) {
+//     res = 0
+//     res = res + arr.Ann
+// //     res = res + arr.John
+// //     res = res + arr.Pete
+// //     return res;
+// // }
+// // console.log(Muhammadjon(name))
+
+// let name = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130,
+// }
+// let arr = Object.values(name)
+// let res = 0
+// for (i of arr) {
+//     res = res + i
+// }
+// console.log(res);
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+
+// };
+// for (i in menu) {
+//     if (typeof menu[i] == "number") {
+//         menu[i] *= 2;
+//     }
+// }
+// console.log(menu);
