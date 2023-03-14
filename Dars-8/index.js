@@ -126,9 +126,27 @@
 // console.log(nol,bir);
 // let name = Math.abs(26-258)
 // console.log(name);
-console.log(let name =Math.abs());
-function get(name){
-let name = Math.abs(26-258)
-console.log(name);
-    }
-    get()
+// function get(name){
+// console.log(name);
+// let name = "Muhammadjon"
+// function get(name){
+//     console.log(name);
+// }
+// get()
+
+//                                 Homework
+// function onlyManfiy(num) {
+//     num = Math.abs(num)
+//     return num
+// }
+// console.log(onlyManfiy(28 - 925))
+//                                Homework 2
+// console.log(Math.trunc(Math.random()*50));
+// function get(){
+// console.log(Math.trunc(Math.random()*50));
+// }
+// get()
+// console.log(Math.ceil(12.00001));
+console.log(Math.trunc(12.2));
+console.log(Math.floor(12.2));
+console.log(parseInt(12.2));
