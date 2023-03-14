@@ -135,18 +135,19 @@
 // get()
 
 //                                 Homework
-// function onlyManfiy(num) {
-//     num = Math.abs(num)
+// let num = 22,
+// function onlyManfiy(num,num2,num3) {
+//     num = Math.abs(Math.max(num2)-Math.min(num3))
 //     return num
 // }
-// console.log(onlyManfiy(28 - 925))
+// console.log(onlyManfiy(12,58,2))
 //                                Homework 2
 // console.log(Math.trunc(Math.random()*50));
 // function get(){
 // console.log(Math.trunc(Math.random()*50));
 // }
 // get()
-// console.log(Math.ceil(12.00001));
-console.log(Math.trunc(12.2));
-console.log(Math.floor(12.2));
-console.log(parseInt(12.2));
+// // console.log(Math.ceil(12.00001));
+// console.log(Math.trunc(12.2));
+// console.log(Math.floor(12.2));
+// console.log(parseInt(12.2));
