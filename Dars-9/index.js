@@ -1,177 +1,108 @@
-// // let a = `Webbarain `,
-// //     // b = `IT`,
-// //     // c = `center `
-
-
-// // // let n = a + b + c
-// // console.log(a);
-// let str1 = "IT"
-// let str2 = 'center'
-// let str3 =`Webbrain ${str1} ${str2}`   
-// console.log(str3);
-// let str1 ="Webbrain "
-// let str2 ='IT'
-// let srt3 = `Center`
-// let str4 = str1+str2+srt3
-// console.log(str4);
-// let str2 = "IT"
-// let str3 ="Center" 
-// let str1 = `Webbrain ${str2} ${str3}`
-// // let str4 = str1+str2+srt3
-// console.log(str1);
-// let str1 = "Webbrain" 
-// let str2 = new String("Webbrain")
-// // console.log(str1 === `Webbrain`);
-// console.log(str1.localeCompare(str2));
+// let n = 12000
+// n = n.toString(2)
+// console.log(n);
+// let bir = 0
+// let nol = 0
+// for (i = 0; i < n.length; i++) {
+//     if (Number(n[i])) {
+//         bir++;
+//     }else{
+//         nol++
+//     }
+// }
+// console.log(bir,`Bir`,nol,`Nol`);
+// let str ="webbrain"
+// console.log(str[1]); // Bu bizga indexlar orqali har bitta harfini  chiqarib beradi 
+// console.log(str.charAt(-3));
+// console.log(str.at(-1));  
+// console.log(str[-1]);
+// console.log(str.charAt(-1));
+// console.log(str.at(-1));  
+// console.log(str.length);
+// console.log(str.toUpperCase());// Bu bizga stringda yozilgan malumotlarimizni hammsini kotta harfga o'gartiradi
+// console.log(str.toLowerCase());// Bu bizga stringda yozilgan malumotlarimizni hammsini kichkina harfga o'gartiradi
+// console.log(str.indexOf("brain"));// Bu bizga o'zimiz yozgan so'zni text ichidan qidirib nechanchi indexdan boshlanishini aytib beradi.Yana agar noto'g'ti malumot kiritiksa bizga -1 natija qaytaradi
+// console.log(str.indexOf("web",5));// Biz bunga 2 chi parametr bersak ham bo'ladi yani ( , ) verguldan keyin nechchi son yossak u son nechanchi indexdan boshlab qidirish bo'ladi
+// console.log(n.indexOf("web",-5));
+// console.log(n.lastIndexOf('web',10));//Bu lastIIndexof oxiridan boshlab qidiradi
+// console.log(n.includes("webbrain"));// Bu bizga ichida shu soz bor yoki yo'qligini tekshirib beradi 
+// let n = "+998997726700"
+// console.log(n.startsWith("+99899"));// Bu bizga boshi manshu qiymat bilan boshlanganmi yoki yo'qligini aytib beradi 
+// console.log(n.endsWith("00"));// Bu bizga oxiri shu qiymatt bilna boshlanganmi yoki yo'qligini aytib beradi 
+// console.log(n.startsWith("web"));
+// let n = "997726700"
+// console.log(n.padStart(13, "+998"));// Boshiga shuni qo'shib qo'yadi
+// console.log(n.slice(3,8));// Bu biszga nechanchi index den boshlab nechanchi indexgacha qirqib olishini aytib beradi 
+// let n = "webbrain It academy"
+// console.log(n.slice(9,15));Bu soni nechanchi indexdan nechanchi indexgacha qirqib olishi
+// console.log(n.substring(3,8));// Bu ham slice ga o'xshagan nechanchi indexdan boshlab neechanchi indexgacha qirqib olishga aytiladi 
+// console.log(eval(n));// Bu bizaga sitrinng ichidagi arifmetik amallarni bajarib beradi 
+// console.log(eval(`2+5+96+7+8+2+85+96`));// Eval
+// console.log(n.split(''));// Bu bizga malumotlarimizni erreyga o'zgartirib beradi 
+// let n= '21.01.2005'
+// console.log(n.concat(" Muhammadjon"));// Bu bizga ozgaruvchiga yozgan sozimizdan keyin consol dagi so'zni qo'shib beradi 
+// let a =52
+// console.log(String.raw`Muhammadjon ${a} `);//Bu bizga istaganimizdek String yasab beradadi 
+// let a="Muhammadjon"
+// console.log(a.indexOf(a,));
+// console.log(a.indexOf("4A"));// Bu nechanchi indexdan boshlanishini aytib beradi 
+// let a = "124A9568"
+// console.log(a.search(/4/i));// Bu nechanchi indexdan boshlanishini aytib beradi 
+// let n = "Muhammadjon"
+// for(i in n){
+//     console.log(i);-------------For in Yozgan yozuvlarimizni indexni chiqarib beradi 
+// }
+// let n = "Muhammadjon"
+// for(i of n){
+//     console.log(i);//-------------For of yozgan yozuvimizni har bitta harfini chiqarib beradi 
+// }
+// console.log(n.length);
+// let s = "Muhamadjon"
+// console.log(s.localeCompare("Muhamadjon"));// Bu bizga ( -1  0  1  ) qiymat qaytaradi.
+//                                Homework
+// if(str1.localeCompare(str2)){
+//     console.log("Umuman to'g'ri emas");
+// }
+// }else if (str1.localeCompare(str2)){
+//     console.log("Qisman to'g'ri");
+// }else{
+//     console.log("Yuz foin to'g'ti");
+// }
+// let str1 = "Webbrain"
+// let str2 = "brain"
+// switch (str1.localeCompare(str2)) {
+//     case -1: console.log("Umuman to'g'ri emas"); break
+//     case 0: console.log("Yuz foiz to'g'ri"); break
+//     case 1: console.log("Qisman to'g'ri"); break
+// }
 // let str = "Webbrain"
-// console.log(str[1]);
-// console.log(str.charAt(1));
-// console.log(str.at(-1));
-// let str = "Webbrain "
-// console.log(str.length);//////------- Nechta so'z borligini aytib beraradi
-// let str ="54564645u"
-// console.log(`${str}`.toLowerCase()); /////---------Hamma sozlarni bosh harfda qilib berardi
-// console.log(`${str}`.toUpperCase()); /////---------Hamma sozlarni kichik harfda qilib berardi
-// console.log(a.indexOf("rain",6));    /////---------qaysi indexdan  boshlanishini aytib beraradi
-// console.log(a.lastIndexOf("bb",8));
-// let a=`Webbarain acadbbemiy`/// ---------Ichda shu so'z bir yoki yoqligini tekshirib berardi
-// console.log(a.includes('in'));
-// let a ="webbrain"
-// console.log(a.startsWith('web'));/////---------- Boshidagi so'z qanaqa boshlangan 
-// // console.log(a.endsWith('ain'));///////----------- oxiridagi so'z nima bilan tugagan
-// let b= "Webbrain"
-// console.log(b.slice(0,3));qayerdan qayergacha qirqib olish
-// console.log(eval(`2+2*9a`));
-// let a= "Webbrai"
-// console.log(a.length);
-// console.log(a.trimStart().length);
-// console.log(a.trimEnd().length);
-// console.log(a.trim().length);
-// let a= "Webbrain academy"
-// console.log(a.split(" "));
-// let a= "Webbrain academy"
-// console.log(a.concat(" IT center"," Salom"));
-// console.log(new String("Webbrain").valueOf());
-// console.log(new String("Webbrain"));
-// let a= "webrain academy"
-// console.log(a.replace("web","WEB"));
-// let a= "webrain academy"b      
-// for (char of a ){
-//     console.log(char);
-// }
-// homework
-// function name(str)
-// function get(str) {
-//     let num = "";
-//     for (i of str) {
-//         if (isNaN(i) === false) {
-//             num += str
+// let res = {};
+// function Getcount(text) {
+//     for (i of text) {
+//         if (res[i]) {
+//             res[i] = res[i] + 1
+//         } else {
+//             res[i] = 1
 //         }
 //     }
-//     console.log(+num);
-//     return num
+//     console.log(res);
 // }
-// get("$1200")
-// function getname(str){
-//     let num="";
-//     for(val of str ){
-//         if ((isNaN(val))===false){
-//             num+=val;
+// Getcount(str)
+// let str = "Muhammadjon"
+// function name(text, index) {
+//     let res = text.substr(text, index)
+//     console.log(res);
+// }
+// name(str, 2)
+// let name = "$1200$"
+// function get(name) {
+//     let res = ""
+//     for (i of name) {
+//         if (i !== "$") {
+//             res += i
 //         }
 //     }
-//     console.log(+num);
-//     return num ;
-
+//     name = res
+//     console.log(+name);
 // }
-// getname("1200")
-
-// let uper = "";
-// let lower = "";
-// let get = (str) => {
-//     for (i of str) {
-//         i === i.toUpperCase() ? uper += i : lower += i;
-//     }
-//     console.log(uper);
-//     console.log(lower);
-// }
-// get("Academy")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// get(name)
