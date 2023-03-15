@@ -154,68 +154,68 @@
 // console.log(n.toString(2));
 // let str ="Webbrain academiy"
 // console.log(str[0]);
-let kun =35
-let oy = 1
-switch (kun) {
-    case 1: kun = 1; break;
-    case 2: kun = 2; break
-    case 3: kun = 3; break;
-    case 4: kun = 4; break
-    case 5: kun = 5; break;
-    case 6: kun = 6; break
-    case 7: kun = 7; break;
-    case 8: kun = 8; break
-    case 9: kun = 9; break;
-    case 10: kun = 10; break
-    case 11: kun = 11; break;
-    case 12: kun = 12; break
-    case 13: kun = 13; break;
-    case 14: kun = 14; break
-    case 15: kun = 15; break;
-    case 16: kun = 16; break
-    case 17: kun = 17; break;
-    case 18: kun = 18; break
-    case 19: kun = 19; break;
-    case 20: kun = 20; break
-    case 21: kun = 21; break;
-    case 22: kun = 22; break
-    case 23: kun = 23; break;
-    case 24: kun = 24; break
-    case 25: kun = 25; break;
-    case 26: kun = 26; break
-    case 27: kun = 27; break;
-    case 28: kun = 28; break
-    case 29: kun = 29; break;
-    case 30: kun = 30; break
-    case 31: kun = 31;break
-    default: kun = "Unaqa malumot mavjud emas";
-        break;
-}
-switch (oy) {
-    case 1:
-        oy = "Yanvar"; break
-    case 2:
-        oy = "Fevral"; break
-    case 3:
-        oy = "Mart"; break
-    case 4:
-        oy = "Aprel"; break
-    case 5:
-        oy = "May"; break
-    case 6:
-        oy = "Iyun"; break
-    case 7:
-        oy = "Iyul"; break
-    case 8:
-        oy = "Avgust"; break
-    case 9:
-        oy = "Sentyabr"; break
-    case 10:
-        oy = "Oktyabr"; break
-    case 11:
-        oy = "Noyabr"; break
-    case 12:
-        oy = "Dekabr"; break
-    default: oy = "Bunaqa malumot mavjud emas";
-}
-console.log(kun,oy);
+// let kun =35
+// let oy = 1
+// switch (kun) {
+//     case 1: kun = 1; break;
+//     case 2: kun = 2; break
+//     case 3: kun = 3; break;
+//     case 4: kun = 4; break
+//     case 5: kun = 5; break;
+//     case 6: kun = 6; break
+//     case 7: kun = 7; break;
+//     case 8: kun = 8; break
+//     case 9: kun = 9; break;
+//     case 10: kun = 10; break
+//     case 11: kun = 11; break;
+//     case 12: kun = 12; break
+//     case 13: kun = 13; break;
+//     case 14: kun = 14; break
+//     case 15: kun = 15; break;
+//     case 16: kun = 16; break
+//     case 17: kun = 17; break;
+//     case 18: kun = 18; break
+//     case 19: kun = 19; break;
+//     case 20: kun = 20; break
+//     case 21: kun = 21; break;
+//     case 22: kun = 22; break
+//     case 23: kun = 23; break;
+//     case 24: kun = 24; break
+//     case 25: kun = 25; break;
+//     case 26: kun = 26; break
+//     case 27: kun = 27; break;
+//     case 28: kun = 28; break
+//     case 29: kun = 29; break;
+//     case 30: kun = 30; break
+//     case 31: kun = 31;break
+//     default: kun = "Unaqa malumot mavjud emas";
+//         break;
+// }
+// switch (oy) {
+//     case 1:
+//         oy = "Yanvar"; break
+//     case 2:
+//         oy = "Fevral"; break
+//     case 3:
+//         oy = "Mart"; break
+//     case 4:
+//         oy = "Aprel"; break
+//     case 5:
+//         oy = "May"; break
+//     case 6:
+//         oy = "Iyun"; break
+//     case 7:
+//         oy = "Iyul"; break
+//     case 8:
+//         oy = "Avgust"; break
+//     case 9:
+//         oy = "Sentyabr"; break
+//     case 10:
+//         oy = "Oktyabr"; break
+//     case 11:
+//         oy = "Noyabr"; break
+//     case 12:
+//         oy = "Dekabr"; break
+//     default: oy = "Bunaqa malumot mavjud emas";
+// }
+// console.log(kun,oy);
