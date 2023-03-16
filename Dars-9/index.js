@@ -75,26 +75,25 @@
 //     case 0: console.log("Yuz foiz to'g'ri"); break
 //     case 1: console.log("Qisman to'g'ri"); break
 // }
-// let str = "Webbrain"
+// let str = "Webbrainacademiy"
 // let res = {};
-// function Getcount(text) {
-//     for (i of text) {
-//         if (res[i]) {
-//             res[i] = res[i] + 1
-//         } else {
-//             res[i] = 1
-//         }
+// for (i of "webbrain") {
+//     if (res[i]) {
+//      res[i]=res[i]+1
+//     } else {
+//         res[i] = 1
 //     }
-//     console.log(res);
 // }
-// Getcount(str)
+// console.log(res);
+
+
 // let str = "Muhammadjon"
 // function name(text, index) {
 //     let res = text.substr(text, index)
 //     console.log(res);
 // }
 // name(str, 2)
-// let name = "$1200$"
+// let name = "1200"
 // function get(name) {
 //     let res = ""
 //     for (i of name) {
@@ -105,4 +104,43 @@
 //     name = res
 //     console.log(+name);
 // }
+// // get(name)
+// let name = "$1200"
+// let res = ""
+// function get(text) {
+//     for (i of text) {
+//         if (i !== "$") {
+//             res += i
+//         }
+//     }
+//     text = res
+//     console.log(+text);
+// }
 // get(name)
+// console.log(str.toUpperCase(str[0],str[6]));
+// function get(text) {
+// text=str[0]=str.toUpperCase(0)
+// console.log(text);
+// }
+// get(str)
+// let str = "webbrain academy"
+// function get(res){
+//     res=str.slice(0,1)
+//     console.log(res);
+
+// }
+// get(str)
+// let str = "salom dunyo";
+// let words = str.split(' ');
+// for (let i = 0; i < words.length; i++) {
+//     words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+// }
+// str = words.join(' ');
+// console.log(str);
+// let str = "webbrain academiy"
+// let arr = str.split(' ')
+// for (let i=0;i<arr.length;i++){
+// arr[i]=arr[i][0].toLocaleUpperCase()+arr[i].substr(1)
+// }
+// str=arr.join(' ')
+// console.log(str);
