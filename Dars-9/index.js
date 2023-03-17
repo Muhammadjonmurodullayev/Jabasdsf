@@ -1,6 +1,4 @@
 // let n = 12000
-// n = n.toString(2)
-// console.log(n);
 // let bir = 0
 // let nol = 0
 // for (i = 0; i < n.length; i++) {
@@ -49,6 +47,7 @@
 // let a = "124A9568"
 // console.log(a.search(/4/i));// Bu nechanchi indexdan boshlanishini aytib beradi 
 // let n = "Muhammadjon"
+// let n = String.raw`123456789876543212345678987654321234567898765432`//yangi string yasab beradi
 // for(i in n){
 //     console.log(i);-------------For in Yozgan yozuvlarimizni indexni chiqarib beradi 
 // }
@@ -77,7 +76,7 @@
 // }
 // let str = "Webbrainacademiy"
 // let res = {};
-// for (i of "webbrain") {
+// for (i of str) {
 //     if (res[i]) {
 //      res[i]=res[i]+1
 //     } else {
@@ -129,7 +128,7 @@
 //     console.log(res);
 
 // }
-// get(str)
+// // get(str)
 // let str = "salom dunyo";
 // let words = str.split(' ');
 // for (let i = 0; i < words.length; i++) {
@@ -142,5 +141,44 @@
 // for (let i=0;i<arr.length;i++){
 // arr[i]=arr[i][0].toLocaleUpperCase()+arr[i].substr(1)
 // }
-// str=arr.join(' ')
-// console.log(str);
+// // str=arr.join(' ')
+// // console.log(str);
+// function get(str){
+//     let res = ""
+//     for(i of str){
+//         if(i in res){
+//             res[i]++;
+//         }else{
+//             res[i]=1
+//         }
+//     }
+//     console.log(str,res);
+// }
+// get("web")
+// let a ="webbrain"
+// // console.log(a.search("brain"));
+// console.log(a.includes("web"));
+// function get(str1) {
+//     let res = { son: 0, str: 0, char: 0, }
+//     for (i of str1) {
+//         if (Number([i])) {
+//             res.son++;
+//         } 
+//         else if (i.toLowerCase() !== i.toUpperCase()) {
+//             res.str++;
+//         }
+//         else {
+//             res.char++
+//         }
+//     }
+//     console.log(res);
+// }
+// get(`web$6787625`)
+// console.log(Math.floor(2.24));
+// console.log(Math.ceil(2.94));
+// console.log(Math.sign(0))
+// let n = "Muhammadjon"
+// let m = " dfggb"
+// console.log(n.concat(m));
+// console.log(n);
+
