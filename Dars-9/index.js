@@ -177,8 +177,191 @@
 // console.log(Math.floor(2.24));
 // console.log(Math.ceil(2.94));
 // console.log(Math.sign(0))
-// let n = "Muhammadjon"
-// let m = " dfggb"
-// console.log(n.concat(m));
-// console.log(n);
+// // let m = " dfggb"
+// // console.log(n.concat(m));
+// console.log(n.indexOf("5"));
+// let n = "2345@#$%^%$##$67890"
+// console.log(n.search(/5@/i));
+// let str = "webbrain"
+// let str2 ="qwertyui"
+// function get(){
+//     if(str==str2){
+//         console.log("Yuz foiz to'g'ri");
+//     }else if (str.includes(str2)){
+// console.log("qisman to'g'ri");
+// }else{
+//     console.log("Umuman to'g'ri emas");
+// }
+// }
+// get()
+// let bir= 0
+// function get(str) {
+//     let res = {}
+//     for (i of str) {
+//         // if (res[i] ) {
+//         // res[i]++;
+//         // } else {
+//         //     res[i] = 1;
+//         // }
+//     }
+//     console.log(str);
+// }
+// get("Muhammadjon")
+// function get(num) {
+//     let res = {}
+//     for (i of num) {
+//         if (res[i]) {
+//         res[i]++;
+//         }else{
+//             res[i]=1
+//         }
+//     }
+//     console.log(res);
+// }
+// get('!@#$%^&&^%$#@!@#$%^&*(8765432345676543ertyuioiuydsdfgh')
+// function get(muh) {
+//     let bir = {}
+//     for (i of muh) {
+//         if (bir[i]) {
+//             bir[i]++;
+//         } else {
+//             bir[i] = 1
+//         }
+//     }
+//     console.log(bir);
+// }
+// get("Muhammadjon")
+// let n = {// }
+// for (i in n) {
+//     if (n[i]) {
+//         console.log(true);
+//     } else if (n = Object) {
+//         console.log(false);
+//     }
+// }
+//  function get(str){
+//     if(isNaN(str[0]))
+//     console.log(parseInt(str.slice(1))); 
+//         else console.log(parseInt(str));
 
+//  }
+//  get(`$##123$`)
+// let str = "werdhsj@#54"
+// function get(text) {
+//     let res= {Str1:0,son:0,char:0}
+//     for(i of text ){
+//         if(Number(i)){
+//             res.son++;
+//         }else if(i.toUpperCase()!==i.toLowerCase()){
+//             res.Str1++;
+//         }else{
+//             res.char++;
+//         }
+//     }
+//     console.log(res);
+// }
+// get(str)
+// function get(str){
+//     for(i in str){
+//      if(str[i]==" "){
+//         console.log(`gh`);
+//      }
+//     }
+// }
+// get("webbrain it academiy")
+// function get (str){
+// for(i of str){
+// if(str[i]=str){
+//     sre[i]+2
+// }
+
+// }
+// }
+// get("webbrain")
+//                                     Homework
+
+// ============================================================================================================================================================
+
+// let obj = {
+//     age: 89,
+//     sur: 12,
+//     menu:"webbrain"
+// }
+// for (i in obj) {
+//     if (typeof obj[i] == "number") {
+//         obj[i] *= 2
+//     }
+// }
+// console.log(obj);
+// ==================================================================================================================================================
+//    Harflarni 2 taga ko'paytirib beradi 
+// let str = "Muxammadjon"
+// function get(string) {
+//     let res = ""
+//     for (i of string) {
+//         res += i + i;
+//     }
+//     console.log(res);
+// }
+// get(str)
+// =========================================================================================================================================================
+//                                                           so'zlarni teskarisiga o'qib beradi
+// let a = "Muha"
+// let b =""
+// for (let i = a.length-1; i>=0; i--) {
+//         b=b+a[i]
+// }
+// console.log(b); 
+// ====================================================================================================================================================
+//                                             Harfni oldida nechtaligini chiqarib beradi 
+// function text(str) {
+//   let res = ""
+//   let count = 1
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === str[i + 1]) {
+//       count++
+//     } else {
+//       res += str[i]
+//       if (count > 1) {
+//         res += count
+//         count = 1
+//       }
+//     }
+//   }
+//   console.log(res)
+// }
+// text("weebbbrrrraaaaaiiiiiinnnnnnn")
+// function get(str) {
+//   let res = ""
+//   let count = ""
+//   for (let i = 0; i <= str.length; i++) {
+//     if (str[i] == str[i + 1]) {
+//       count++;
+//     } else {
+//       res = res + str[i];
+//       if (count > 1) {
+//         res = res + count;
+//         count = 1
+//       }
+//     }
+//   }
+//   console.log(res);
+// }
+// get("wwwweebbbrrraaaiiinnn")
+function get(str) {
+  let res = "";
+  let num =0
+  for (let i = 0; i <= str.length; i++) {
+    if (str[i] == str[i + 1]) {
+      num++;
+    } else {
+      res = res + str[i]
+      if (num > 1) {
+        res = res + num;
+        num = 1;
+      }
+    }
+  }
+  console.log(res);
+}
+get("wweeeeeeerrrrrrrtty")
