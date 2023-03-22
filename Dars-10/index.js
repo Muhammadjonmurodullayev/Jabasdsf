@@ -63,8 +63,15 @@
 // }
 // console.log(b);
 // console.log(Muhammadjon);
-
-
-
-
-
+// let num  = [1,"Muhammadjon",Number,4,5,3,]// Arr nima? ==== faqatgina valyus tashkil topgan malumot turiga aytiladi 
+// let srr =new Array()=======// Yangi arr yasab beradi.//
+// console.log(num,srr);
+// let arr2 =new Array("4")
+// let arr1 =new Array(4)// 4 ta bo'sh arr elementi bor degani  
+// arr[0]="A"
+// let num = 12
+// let arr = [4,2,5,5,4,6,3,7,`Muhammadjon ${num} `,4,6,4]
+// console.log(arr)
+// console.log(arr.at(1));
+let arr = [2,3,[4,5,[6,5,4],6,3],5,3]
+console.log(arr[2][2][2]);
