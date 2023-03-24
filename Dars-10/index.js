@@ -109,3 +109,15 @@
 
 // // HTML kodini kalendar elementiga qo'shing
 // calendar.innerHTML = calendarHTML + '</div>';
+// arr.pop()//   arr eng oxiridan malumot o'chiradi 
+// arr.push(5)// err eng oxiridan malumot qoshadi
+// arr.shift()// err boshidan malumot o'chiradi
+//  arr.unshift(0)//err boshidan malumot qo'shadi
+//  arr.splice(2, 3)// Bu asil arr ni o'zgartiradi 
+// arr.slice(2, 3)// Asil arrni ozgartirmaydi 
+// let arr2 = arr.slice(2,4)// Agar 2 ta qiymat biriktirsak shu ikita qiymatni ichidagi malumotlarni chiqarib beradi
+// let arr2 = arr.splice(2,5)// Agar 2 taqiymat bersak shu qiymatlarni kesib olib chiqarib beradi
+// arr.reverse()// Bu bizga arr ni teskarisiga ozgartirib beradi
+// let arr = [0, 1, 2, 3, 4]
+// console.log(arr);
+
