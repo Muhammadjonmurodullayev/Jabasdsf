@@ -73,5 +73,39 @@
 // let arr = [4,2,5,5,4,6,3,7,`Muhammadjon ${num} `,4,6,4]
 // console.log(arr)
 // console.log(arr.at(1));
-let arr = [2,3,[4,5,[6,5,4],6,3],5,3]
-console.log(arr[2][2][2]);
+// console.log(arr.toString(2));// Malumotlarni stringga o'tkazib beradi
+//                                                                       -----------
+// console.log(arr.join());///////////Malumotlarni sitringga o'tkazib beradi
+// let arr = [2,3,4,5,6,5,4,6,3,5,3]
+// console.log(arr.toString());
+// console.log(arr.join(" "));
+// arr.forEach( arr => {
+//     console.log(arr);
+// });
+// let a = [1,2,33,4,5,6,7,7]
+// console.log( typeof Map);
+// let str = "Murodullayyev "
+// let str1 = `Muhammadjon ${str} `
+// let str2 = new String('Muhammadjon')
+//     console.log(str2);
+// const calendar = document.querySelector('.calendar');
+
+// // Oyning nechta kuni borligini aniqlang
+// const date = new Date();
+// const year = date.getFullYear();
+// const month = date.getMonth();
+
+// // Kalendar uchun HTML kodini yarating
+// let calendarHTML = `
+//   <div class="month">${month}</div>
+//   <div class="year">${year}</div>
+//   <div class="days">
+// `;
+
+// // Oyning har bir kuniga blok qo'shish
+// for (let i = 1; i <= 31; i++) {
+//   calendarHTML += `<div class="day">${i}</div>`;
+// }
+
+// // HTML kodini kalendar elementiga qo'shing
+// calendar.innerHTML = calendarHTML + '</div>';
