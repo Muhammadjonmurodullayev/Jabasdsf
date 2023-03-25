@@ -49,7 +49,7 @@
 // Boolean
 // null
 // undefined
-// BigInt 
+// BigInt
 // String
 // Symbol
 //                none primitiv
@@ -63,11 +63,11 @@
 // }
 // console.log(b);
 // console.log(Muhammadjon);
-// let num  = [1,"Muhammadjon",Number,4,5,3,]// Arr nima? ==== faqatgina valyus tashkil topgan malumot turiga aytiladi 
+// let num  = [1,"Muhammadjon",Number,4,5,3,]// Arr nima? ==== faqatgina valyus tashkil topgan malumot turiga aytiladi
 // let srr =new Array()=======// Yangi arr yasab beradi.//
 // console.log(num,srr);
 // let arr2 =new Array("4")
-// let arr1 =new Array(4)// 4 ta bo'sh arr elementi bor degani  
+// let arr1 =new Array(4)// 4 ta bo'sh arr elementi bor degani
 // arr[0]="A"
 // let num = 12
 // let arr = [4,2,5,5,4,6,3,7,`Muhammadjon ${num} `,4,6,4]
@@ -109,15 +109,137 @@
 
 // // HTML kodini kalendar elementiga qo'shing
 // calendar.innerHTML = calendarHTML + '</div>';
-// arr.pop()//   arr eng oxiridan malumot o'chiradi 
+// arr.pop()//   arr eng oxiridan malumot o'chiradi
 // arr.push(5)// err eng oxiridan malumot qoshadi
 // arr.shift()// err boshidan malumot o'chiradi
 //  arr.unshift(0)//err boshidan malumot qo'shadi
-//  arr.splice(2, 3)// Bu asil arr ni o'zgartiradi 
-// arr.slice(2, 3)// Asil arrni ozgartirmaydi 
+//  arr.splice(2, 3)// Bu asil arr ni o'zgartiradi
+// arr.slice(2, 3)// Asil arrni ozgartirmaydi
 // let arr2 = arr.slice(2,4)// Agar 2 ta qiymat biriktirsak shu ikita qiymatni ichidagi malumotlarni chiqarib beradi
 // let arr2 = arr.splice(2,5)// Agar 2 taqiymat bersak shu qiymatlarni kesib olib chiqarib beradi
 // arr.reverse()// Bu bizga arr ni teskarisiga ozgartirib beradi
 // let arr = [0, 1, 2, 3, 4]
 // console.log(arr);
+// let arr = [2,3]
+// for (i of arr){
+//     arr=arr[i]+arr[i]
+// }
+// console.log(arr);
+//                                              Homework
+// let arr =[2,3]
+// function get(son){
+// let yigindi=0
+// for(i=0;i<son.length;i++){
+// yigindi+=son[i]
+// }
+// console.log(yigindi);
+// }
+// get(arr)
+// let arr2 = [8, 2, 3,4,5,6,7,1,0];
+// let arr1 = [{
+//     name:"Muhammadjon",
+//     surname:"Murodullayev"
+// }];
+// // let arr2 = ["Apple","Nok","olma","Awewer"];
+// // console.log(arr1.sort((a,b) =>b-a ));//Bu bizga
+// // console.log(arr2.sort((a,b) => a.localeCompare(b) ));
+//  let some= arr2.some((valyus,index)=>{
+//     console.log(valyus);
+//     return valyus>0;
+// })
+// console.log('some');
+// let sum =0
+// name.forEach((valyus) => {
+//     sum+=valyus
+
+// });
+// console.log(sum);
+//     let arr = [1,2,3,4]
+// let sum =arr.reduce((prev,valyus)=>{
+//     // console.log(prev,valyus);
+//     return prev+3;
+// },0)
+// console.log(sum);
+// let arr1 =["muhammadjon","azizbek","ozodbek","Bekki"]
+// arr1.sort((a,b)=>{return a.localeCompare(b)})
+// arr.sort((a,b)=> a-b)
+// let res = arr.filter((valyus,index)=>{
+//     // valyus,index
+//     return true;
+// })
+// console.log(res);
+// let res = arr.map((valyus)=>{
+//     // console.log(valyus);
+//     return 10;
+// })
+// console.log(res);
+// console.log(arr.map((valyus)=> {
+//     return valyus<10;
+// }));
+// // let res = Array.from("muhammadjon", (valyus) => valyus.toUpperCase())
+// console.log(res);
+// let res = Array.from("zik", (valyus) =>valyus.toLowerCase() )
+// console.log(res);
+let users = [
+    { id: 1, year: 1998, engine: 1, name: "Tico" },
+    { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
+    { id: 3, year: 2010, engine: 1.5, name: "Gentra" },
+    { id: 4, year: 2010, engine: 1.2, name: "Cobalt" },
+    { id: 5, year: 2012, engine: 2, name: "Malibu" },
+    { id: 6, year: 2000, engine: 1.2, name: "Damaz" },
+    { id: 7, year: 2018, engine: 2.4, name: "Tracer" },
+]
+// ============================================================================================================================
+// let res = users.filter((v)=>{
+//     return v.year<2000;
+// })
+// console.log(res);
+// // ==============================================================================================================================
+// let res =users.filter((v)=>{
+//     return v.year>2010
+// })
+// console.log(res);
+// ===================================================================================================================================
+// let res =users.sort((a,b)=>{
+//    return a.engine-b.engine
+// })
+// console.log(res);
+// ===================================================================================================================================
+// let res = users.sort((a,b)=>{
+//     return a.year-b.year
+// })
+// console.log(res);
+// ===================================================================================================================================
+// let res =users.sort((a,b)=>{
+//     return a.name.localeCompare(b.name)
+// })
+// console.log(res);
+// ===================================================================================================================================
+// function get(data){
+//     let res =data.map((v)=>{
+//         return v.year<2000 ?{...v,status:"Eski"}:v
+//     })
+// users=res
+// console.log(users);
+// }
+// get(users)
+// ===================================================================================================================================
+// function get(data) {
+//     let res = data.map((v) => {
+//         return v.year < 2010 && v.year > 2000 ? { ...v, status: "O'rta" } : v
+//     })
+//     users = res
+//     console.log(users);
+// }
+// get(users)
+// ===================================================================================================================================
+// function get(data) {
+//     let res = data.map((v) => {
+//         return v.year < 2022 && v.year > 2010 ? { ...v, status: "Yangi" } : v
+//     })
+//     users = res
+//     console.log(users);
+// }
+// get(users)
+// // ===================================================================================================================================
 
