@@ -180,15 +180,15 @@
 // console.log(res);
 // let res = Array.from("zik", (valyus) =>valyus.toLowerCase() )
 // console.log(res);
-let users = [
-    { id: 1, year: 1998, engine: 1, name: "Tico" },
-    { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
-    { id: 3, year: 2010, engine: 1.5, name: "Gentra" },
-    { id: 4, year: 2010, engine: 1.2, name: "Cobalt" },
-    { id: 5, year: 2012, engine: 2, name: "Malibu" },
-    { id: 6, year: 2000, engine: 1.2, name: "Damaz" },
-    { id: 7, year: 2018, engine: 2.4, name: "Tracer" },
-]
+// let users = [
+//     { id: 1, year: 1998, engine: 1, name: "Tico" },
+//     { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
+//     { id: 3, year: 2010, engine: 1.5, name: "Gentra" },
+//     { id: 4, year: 2010, engine: 1.2, name: "Cobalt" },
+//     { id: 5, year: 2012, engine: 2, name: "Malibu" },
+//     { id: 6, year: 2000, engine: 1.2, name: "Damaz" },
+//     { id: 7, year: 2018, engine: 2.4, name: "Tracer" },
+// ]
 // ============================================================================================================================
 // let res = users.filter((v)=>{
 //     return v.year<2000;
@@ -242,4 +242,53 @@ let users = [
 // }
 // get(users)
 // // ===================================================================================================================================
+// let arr1 = [4,5,6,7,8,9]
+// console.log(arr.toString());
+// console.log(arr.concat(arr1));
+// console.log(Array.isArray(arr1));
+// console.log(arr.length);
+// arr.pop()
+// arr.pop()
+// arr.pop()
+// arr.push(3)
+// arr.shift()
+// arr.shift()
+// arr.shift()
+// arr.unshift(2)
+// arr.unshift(2)
+// console.log(arr.slice(2,6));
+// let res=arr.splice(2,6)
+// console.log(res);
+// console.log(arr.indexOf(1,2));
+// console.log(arr.lastIndexOf(7));
+// console.log(arr.includes(7));
+// console.log(arr.reverse());
+// let arr1 = "12345678"
+// console.log(arr.join());//-------- arr string
+// console.log(arr1.split());//-------sitring arr
+let arr = [1, 2, 3, 4, 5, 6, 7, 8]// yig'indisini chiqarib bersin
+let arr1 = ["webbrain","Academiy"]// 2 ta malumot bor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

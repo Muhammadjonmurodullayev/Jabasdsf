@@ -278,21 +278,8 @@
 // }
 // }
 // get("webbrain")
-//                                     Homework
 
-// ============================================================================================================================================================
 
-// let obj = {
-//     age: 89,
-//     sur: 12,
-//     menu:"webbrain"
-// }
-// for (i in obj) {
-//     if (typeof obj[i] == "number") {
-//         obj[i] *= 2
-//     }
-// }
-// console.log(obj);
 // ==================================================================================================================================================
 //    Harflarni 2 taga ko'paytirib beradi 
 // let str = "Muxammadjon"
@@ -313,8 +300,8 @@
 // }
 // console.log(b); 
 // ====================================================================================================================================================
-//                                             Harfni oldida nechtaligini chiqarib beradi 
-// function text(str) {
+//                                                    Harfni oldida nechtaligini chiqarib beradi 
+// function text(str) {  
 //   let res = ""
 //   let count = 1
 //   for (let i = 0; i < str.length; i++) {
@@ -348,20 +335,43 @@
 //   console.log(res);
 // }
 // get("wwwweebbbrrraaaiiinnn")
-function get(str) {
-  let res = "";
-  let num =0
-  for (let i = 0; i <= str.length; i++) {
-    if (str[i] == str[i + 1]) {
-      num++;
-    } else {
-      res = res + str[i]
-      if (num > 1) {
-        res = res + num;
-        num = 1;
-      }
-    }
-  }
-  console.log(res);
-}
-get("wweeeeeeerrrrrrrtty")
+// function get(str) {
+//   let res = "";
+//   let num =0
+//   for (let i = 0; i <= str.length; i++) {
+//     if (str[i] == str[i + 1]) {
+//       num++;
+//     } else {
+//       res = res + str[i]
+//       if (num > 1) {
+//         res = res + num;
+//         num = 1;
+//       }
+//     }
+//   }
+//   console.log(res);
+// }
+// get("wweeeeeeerrrrrrrtty")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

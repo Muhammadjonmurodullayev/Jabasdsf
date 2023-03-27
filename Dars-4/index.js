@@ -128,20 +128,22 @@
 //     }
 // }
 //                    Homework
-// let browser = "Edge"
-// switch (browser) {
-//     case 'Edge':
-//         console.log("You've got the edge!"); break
-//     case 'Chrome':console.log('Chrom'); break
-//     case 'Firifox': console.log("Firifox");
-//     case 'Safari': console.log("Safari");
-//     case 'Opera': console.log("Opera");
+let browser = "Chrome"
+switch (browser) {
+    case 'Edge':
+        console.log("You've got the edge!"); break
+    case 'Chrome':
+    case 'Firifox':
+    case 'Safari': 
+    case 'Opera': 
 
-//     console.log("Okay we support these browser too "); break
+    console.log("Okay we support these browser too "); 
+    console.log("Okay we support these browser too "); 
 
-//     default: console.log('We hope that page looks ok ');
 
-// }
+    default: console.log('We hope that page looks ok ');
+
+}
 // let a = console.log(Number('1', ''));
 // if(a==0){
 //     console.log(0);
@@ -169,15 +171,49 @@
 //     // Nubmer 3!
 //     // Nubmer 4!
 //     // Nubmer 5!
-//     // Nubmer 6!
-//     // Nubmer 7!
-//     // Nubmer 8!
-//     // Nubmer 9!
-// for(i=1; i<100; i++){
-// if(i%2==1){
-//     console.log(i,"Toq son");
-// }else{
-//     console.log(i, "Juft son");
-// }
-// }
- 
+    // Nubmer 6!
+    // Nubmer 7!
+    // Nubmer 8!
+    // Nubmer 9!
+for(i=3; i<10 ; i++){
+    if(i%2==1){
+        console.log(i,"toq son ");
+    }else{
+        console.log(i);
+    }
+}
+function get(name, surname, age) {
+    console.log(`name ${name}`);
+    console.log(`surname${surname}`);
+    console.log(`age ${age}`);
+
+}
+get("Muhammadjon", surname, 20)
+get("Muhammadjon", "Murodov", 20)
+let a= 100
+while(a){
+    console.log(a++);
+}
+
+for(i=1;i<100;i++){
+    if(i%2){
+        console.log(i,`Toq san`);
+    }else{
+        console.log(i,`Juft son`);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

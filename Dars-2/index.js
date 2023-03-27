@@ -137,12 +137,47 @@
 // console.log(Number(a));
 // console.log(Number.parseInt(a));
 // console.log(Number.parseFloat(a));
+// let a=12   //Number 
+// let b='13.85' //string
+// console.log(+b);
+// console.log(Number(b));
+// console.log(parseInt(b));
+// console.log(parseFloat(b));
+// let str = " Webbrain"
+// let str1 = " Academiy"
+// console.log(str + str1);
 
-
-
-
-
-
+// console.log(2==2);
+//                      Boolean
+// console.log(Boolean(2==2));
+// false///---- yoq
+// true ///--------ha
+// let a = 10
+// let b = '12'
+// console.log(a + +b);
+         // =, ==, ===, --, ++
+// let v = 15 + 15
+// let a = 12,
+//     b = 13
+// c = "webbrain"
+// a = b = c = v
+// console.log(a, b, c, v);
+// let a= 15
+// let b=15
+// console.log(a==b);
+// let a='12'//Number 
+// let b='12'//String
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(a===b);
+// let a =7
+// // a++;
+// console.log(a--);
+// console.log(a);
+// let a=11;
+// let b=1878;
+// console.log(a>=b);
+console.log(true||12);
 
 
 
