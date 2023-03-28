@@ -266,8 +266,8 @@
 // let arr1 = "12345678"
 // console.log(arr.join());//-------- arr string
 // console.log(arr1.split());//-------sitring arr
-let arr = [1, 2, 3, 4, 5, 6, 7, 8]// yig'indisini chiqarib bersin
-let arr1 = ["webbrain","Academiy"]// 2 ta malumot bor
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8]// yig'indisini chiqarib bersin
+// let arr1 = ["webbrain","Academiy"]// 2 ta malumot bor
 
 
 
