@@ -47,7 +47,7 @@
 // console.log(`${res}-ta kata harf
 // ${res1}-ta kichkina harf`);
 // ====================================================================================================================================
-// stringda berilgan ("@") su belgini chiqarib yuborish
+//                                         stringda berilgan ("@") su belgini chiqarib yuborish
 // let str = "Webb@in Ac@demiy"
 // let res= ""
 // for (i of str) {
@@ -201,25 +201,25 @@
 // deldeb(str);
 // ============================================================================================================================================================
 //                                              Faqat 2 xonali sonlarni chiqarish
-let num = [12, 34, 567, 12, 111, 23, 77, 84]
-let num1 = num.filter((valyus) => {
+// let num = [12, 34, 567, 12, 111, 23, 77, 84]
+// let num1 = num.filter((valyus) => {
 
-    return valyus < 99
-})
-console.log(num1);
-// ============================================================================================================================================================
-let num = [12, 34, 567, 12, 111, 23, 77, 84]
-let num1 = num.filter((valyus) => {
-
-    return valyus < 99
-})
-console.log(num1);let num = [12, 34, 567, 12, 111, 23, 77, 84]
-let num1 = num.filter((valyus) => {
-
-    return valyus < 99
-})
-console.log(num1);
-
+//     return valyus < 99
+// })
+// console.log(num1);
+// =========================================================================================c===================================================================
+//                               Faqar bitta sonlarni chiqarib beradi
+// function get(a) {
+//     let combain = []
+//     for(let i = 0; i<a.length;i++){
+//         if(a[i] !== a[i+1]){
+//             combain=[...combain, a[i]]
+//         }
+//     }
+//     console.log(combain);
+// }
+// get([1, 1, 1, 2, 3, 6, 6, 10])
+// =========================================================================================c===================================================================
 
 
 
