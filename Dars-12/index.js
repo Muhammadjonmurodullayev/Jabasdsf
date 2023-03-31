@@ -6,3 +6,4 @@ let obj={
 }
 let {name:web,title,info}=obj
 console.log(info);
+console.log(info);
