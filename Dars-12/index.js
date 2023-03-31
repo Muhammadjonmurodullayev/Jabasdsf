@@ -4,3 +4,5 @@ let obj={
     title:"It center",
     info:{age:18}
 }
+let {name:web,title,info}=obj
+console.log(info);
