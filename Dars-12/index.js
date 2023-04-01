@@ -62,4 +62,4 @@ const get = (data) => {
         console.log(`${arr[time.getDay()].slice(0,3)}, ${arr1[time.getMonth()].slice(0,3)}, ${time.getFullYear()} ${time.getHours()%12}:${time.getSeconds()} PM`);
     }
 }
-get("")
+get("LLLL")
