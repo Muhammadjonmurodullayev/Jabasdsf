@@ -48,7 +48,7 @@ const get = (data) => {
     } else if (data == "L") {
        console.log( time.getMonth()<10?`0${time.getMonth()}/${time.getDate()}/${time.getFullYear()}`:`${time.getMonth()}/${time.getDate()}/${time.getFullYear()}`);
     } else if (data == "l") {
-        console.log(`${time.getMonth()}/${time.getDate()}/${time.getFullYear()}`);
+        console.log(`${time.getMonth()}/${ti-me.getDate()}/${time.getFullYear()}`);
     } else if (data == "LL") {
         console.log(`${arr1[time.getMonth()]} ${time.getDate()},${time.getFullYear()}`);
     }else if (data == "ll") {
