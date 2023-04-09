@@ -1,17 +1,10 @@
-// Blog Function Global 
-// {
-//     let name = "webbrain academiy"--------Blog
-// }
-// console.log(name);
+Blog Function Global 
+{
+    let name = "webbrain academiy"--------Blog
+}
+console.log(name);
 
-//  function get(){} // if{} for swich while do while ------Function 
-let list = [
-    { id: 1, name: "eshmat", title: "CEO" },
-    { id: 2, name: "toshmat", title: "CTO" },
-    { id: 5, name: "eshmat", title: "CEO" },
-    { id: 6, name: "toshmat", title: "CTO" },
-
-]
+ function get(){} // if{} for swich while do while ------Function 
 let res = list.filter((a, b) => {
     return a.title
 })
@@ -38,7 +31,6 @@ function get(str, str1) {
     console.log(res == res1);
 }
 get(str, str1)
-
 let obj = {
     id: 1, name: "eshmat", title: "CEO",
     id: 2, name: "toshmat", title: "CTO",
@@ -46,12 +38,20 @@ let obj = {
     id: 4, name: "toshmat", title: "CTO"
 }
 console.log(obj.title);
-
-
-
-
-
-
-
-
+let list = [
+    { id: 1, name: "eshmat", title: "CEO" },
+    { id: 2, name: "toshmat", title: "CTO" },
+    { id: 3, name: "eshmat", title: "CEO" },
+    { id: 4, name: "toshmat", title: "CTO" },
+]
+let res=list.filter((valyus)=>{
+    return valyus.title==="CEO"
+})
+let res1=list.filter((valyus)=>{
+    return valyus.title==="CTO"
+})
+let res3=[]
+res3.push(...res)
+console.log(res3);
+// console.log(res1);
 
