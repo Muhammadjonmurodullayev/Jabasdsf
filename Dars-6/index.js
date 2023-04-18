@@ -234,18 +234,18 @@
 //     res = res + i
 // }
 // console.log(res);
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
 
-};
-for (i in menu) {
-    if (typeof menu[i] == "number") {
-        menu[i] *= 2;
-    }
-}
-console.log(menu);
+// };
+// for (i in menu) {
+//     if (typeof menu[i] == "number") {
+//         menu[i] *= 2;
+//     }
+// }
+// console.log(menu);
 // // let obj1 = { 
 // //     name: "Muhammadjon" 
 // // }
