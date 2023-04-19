@@ -95,24 +95,24 @@
 //         console.log(`webrain ${this.name}`);
 //                  }
 // }
+// // }
+// // obf.get()()
+// let obj = {
+//     name: 'Muhammadjon',
+//     core: 'hsdsd',
+//     age: 'sdnsd',
+//     eyes: 'sdhfsdh'
 // }
-// obf.get()()
-let obj = {
-    name: 'Muhammadjon',
-    core: 'hsdsd',
-    age: 'sdnsd',
-    eyes: 'sdhfsdh'
-}
-// let arr = Object.values(obj)
-for(i in obj){
-    console.log(obj[i]);
-}
-for (n in i) {
-    if (typeof obj[n] == "string") {
-        obj[n] = "Dilmurod"
-    }
-}
-console.log(obj);
+// // let arr = Object.values(obj)
+// for(i in obj){
+//     console.log(obj[i]);
+// }
+// for (n in i) {
+//     if (typeof obj[n] == "string") {
+//         obj[n] = "Dilmurod"
+//     }
+// }
+// console.log(obj)
 
 
 
