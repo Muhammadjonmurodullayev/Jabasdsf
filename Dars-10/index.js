@@ -268,19 +268,19 @@
 // console.log(arr1.split());//-------sitring arr
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8]// yig'indisini chiqarib bersin
 // let arr1 = ["webbrain","A1cademiy"]// 2 ta malumot bor
-let users = [
-        { id: 1, year: 1998, engine: 1, name: "Tico" },
-        { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
-        { id: 3, year: 2010, engine: 1.5, name: "Gentra" },
-        { id: 4, year: 2010, engine: 1.2, name: "Cobalt" },
-        { id: 5, year: 2012, engine: 2, name: "Malibu" },
-        { id: 6, year: 2000, engine: 1.2, name: "Damaz" },
-        { id: 7, year: 2018, engine: 2.4, name: "Tracer" },
-    ]
-let arr = users.sort((a,b) => {
-    return b.engine-a.engine;
-})
-console.log(arr);
+// let users = [
+//         { id: 1, year: 1998, engine: 1, name: "Tico" },
+//         { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
+//         { id: 3, year: 2010, engine: 1.5, name: "Gentra" },
+//         { id: 4, year: 2010, engine: 1.2, name: "Cobalt" },
+//         { id: 5, year: 2012, engine: 2, name: "Malibu" },
+//         { id: 6, year: 2000, engine: 1.2, name: "Damaz" },
+//         { id: 7, year: 2018, engine: 2.4, name: "Tracer" },e4444oppppppe34p--
+//     ]
+// let arr = users.sort((a,b) => {
+//     return b.engine-a.engine;
+// })
+// console.log(arr);
 // let arr=res.some((valyus)=> valyus<10)
 // let arr=res.fill("*",1,3)
 // let arr = res.forEach((valyus,index)=> 
