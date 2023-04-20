@@ -283,7 +283,7 @@
 // console.log(arr);
 // let arr=res.some((valyus)=> valyus<10)
 // let arr=res.fill("*",1,3)
-// let arr = res.forEach((valyus,index)=> 
+// let arr = res.forEach((valyus,index)=> `
 // console.log(valyus,index)
 // )
 // let res = [1, 2, 3, 4, 5, 6, 7, 8, 9]
