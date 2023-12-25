@@ -355,4 +355,6 @@ console.log(i);
 // get("wweeeeeeerrrrrrrtty")
 function getname(){
     console.log(1);
+}function getname(){
+    console.log(1);
 }
