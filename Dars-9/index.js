@@ -78,10 +78,11 @@
 // let res = {};
 // for (i of str) {
 //     if (res[i]) {
-//      res[i]=res[i]+1
+//         res[i] = res[i] + 1
 //     } else {
 //         res[i] = 1
 //     }
+
 // }
 // console.log(res);
 
@@ -269,15 +270,15 @@
 //     }
 // }
 // get("webbrain it academiy")
-// function get (str){
-// for(i of str){
-// if(str[i]=str){
-//     sre[i]+2
-// }
-
-// }
-// }
-// get("webbrain")
+function get (str){
+for(i of str){
+if(str[i]=str){
+    str[i]+2
+}
+}
+}
+get("webbrain")
+console.log(i);
 
 
 // ==================================================================================================================================================
@@ -352,26 +353,6 @@
 //   console.log(res);
 // }
 // get("wweeeeeeerrrrrrrtty")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function getname(){
+    console.log(1);
+}
